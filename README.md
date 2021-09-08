@@ -43,9 +43,7 @@ I try to use 3 types of modeling methods.
 
 >2.The second is **deep learning** method,LSTM.The performance of it on validation set is also not good,the possible reason is the data size is not large enough to fully give play to the power of deep learining.
 
->3.The final method is traditional **machine learning** method, I use 3 different **ensemble learning** methods.
-
->***---Random Forest*** ***---GBDT*** ***---Xgboost***
+>3.The final method is traditional **machine learning** method, I use 3 different **ensemble learning** methods.***1)Random Forest 2)GBDT 3)Xgboost***
 
 
 Together with the features I made before, these 3 models' performance on validation set far beyond the traditional time series method and deep learning methods.
