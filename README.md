@@ -45,19 +45,36 @@ I try to use 3 types of modeling methods.
 
 >3.The final method is traditional **machine learning** method, I use 3 differnet **ensemble learning** methods.
 
->---Random Forest 
+>***---Random Forest*** 
 
->---GBDT 
+>***---GBDT***
 
->---Xgboost
+>***---Xgboost***
 
 Together with the features I made before, these 3 models' performance on validation set far beyond the traditional time series method and deep learning methods.
 
 Finally,I use the combination of these 3 models to predict the data on test set. And my final score(MAPE) on task 1 & 2 is:**0.136** & **0.7913** respectively.
 
 ### 4.Performance on validation set
->Task 1
+>Task 1 where the red line means the real values and the blue line means the predicted values
 
-**Random Forest**
+***Random Forest***
+
+![random_forest](https://github.com/frankhjh/Fintech_TS_Forecast/blob/main/img/Random_Forest.png)
+
+***GBDT***
+
+![GBDT](https://github.com/frankhjh/Fintech_TS_Forecast/blob/main/img/GBDT.png)
+
+***Xgboost***
+
+![xgboost](https://github.com/frankhjh/Fintech_TS_Forecast/blob/main/img/Xgboost1.png)
+
+>Task2 
+
+***Xgboost***
+
+![xgboost2](https://github.com/frankhjh/Fintech_TS_Forecast/blob/main/img/Xgboost2.png)
+
 
 
