@@ -8,14 +8,14 @@ the overall data structure is simple,just in form of **date -- period in the day
 
 There is another table to tell us the type of each day, for example, workday, weekend, hoilday and so on.
 
-What needs additional attention is that there are two types of businesses,**A** and **B**,we need to deal with them repectively.
+What needs additional attention is that there are two types of businesses,**A** and **B**,we need to deal with them respectively.
 
-The training data includes the data from *2018.1.1* to *2020.10.31*, and our prediction target is the business volumes for the day between *2020.11.1* to *2020.12.31*.
+The training data includes the data from *2018.1.1* to *2020.10.31*, and our prediction targets are the business volumes for the day between *2020.11.1* to *2020.12.31*.
 
 ## Basic Solution
 
 ### 1.Preprocess and EDA
->load data from csv and make some plot to observe the overall tendencies
+>Load data from csv and make some plot to observe the overall tendencies
 
 ### 2.Feature engineering
 Besides the basic features the data provides like the date(year,month,day,hour,day type etc.),I also try to create some other features I think may help.
@@ -43,13 +43,10 @@ I try to use 3 types of modeling methods.
 
 >2.The second is **deep learning** method,LSTM.The performance of it on validation set is also not good,the possible reason is the data size is not large enough to fully give play to the power of deep learining.
 
->3.The final method is traditional **machine learning** method, I use 3 differnet **ensemble learning** methods.
+>3.The final method is traditional **machine learning** method, I use 3 different **ensemble learning** methods.
 
->***---Random Forest*** 
+>***---Random Forest*** ***---GBDT*** ***---Xgboost***
 
->***---GBDT***
-
->***---Xgboost***
 
 Together with the features I made before, these 3 models' performance on validation set far beyond the traditional time series method and deep learning methods.
 
