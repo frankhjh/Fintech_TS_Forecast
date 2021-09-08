@@ -56,7 +56,7 @@ Together with the features I made before, these 3 models' performance on validat
 Finally,I use the combination of these 3 models to predict the data on test set. And my final score(MAPE) on task 1 & 2 is:**0.136** & **0.7913** respectively.
 
 ### 4.Performance on validation set
->Task 1 where the red line means the real values and the blue line means the predicted values
+>Task 1 *where the red line means the real values and the blue line means the predicted values*.
 
 ***Random Forest***
 
